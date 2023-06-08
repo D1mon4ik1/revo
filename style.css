@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(to bottom right, blue, yellow,lime);
+    background-size: cover;
+    height: 97.7vh;
+}
+img.rot {
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 3s linear 0s normal none infinite running rot;
+    height: 40vh;
+    margin-left: 4vw;
+    text-align: center;
+}
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.pidor{
+    text-align: center;
+}
+.yess{
+    border: 1px solid black;
+    width: 45vw;
+    position: absolute;
+    top: 0;
+    margin: 10vh 0 0 25vw;
+    padding: 0 2vw;
+    background: linear-gradient(to bottom right, red, purple, orange);
+    font-size: 4vh;
+    color: yellow;
+    text-shadow: 3px 1px 3px black;
+    border-radius: 10px;
+    transition: 500ms;
+    display: none;
+    text-align: center;
+}
+button{
+    height: 5vh;
+    width: 10vw;
+    font-size: 3.5vh;
+    border-radius: 10px;
+    margin: 2vh 2vw 0 2vw;
+    background-color: aqua;
+    box-shadow: 0 0 5px 5px purple;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.2);
+}
+h1{
+    font-size: 6vh;
+    font-family: Arial, serif;
+    color: purple;
+    margin: 0;
+    text-shadow: 3px 1px 10px lime;
+}
+video{
+    margin-left: 30vw;
+}
+.nice{
+    top: 0;
+    position: absolute;
+    width: 15vw;
+}
